@@ -1,8 +1,6 @@
 ## Open Book File Format
 v1.0
 
----
-
 ## Extension
 obff uses `.obff` or `.obf` as file extension.
 
