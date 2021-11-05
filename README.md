@@ -2,6 +2,7 @@
 ##### v1.0<br>rev 1, 04.11.2021
 
 ## Extension
+The purpes of this file format is, to store books digital.
 obff uses `.obff` or `.obf` as file extension.
 
 ## File Header
@@ -20,7 +21,6 @@ obff uses `.obff` or `.obf` as file extension.
 |`S_DESC`| 4 Bytes | Size of description |
 |`S_COVER`| 4 Bytes | Size of cover |
 |`S_PAGES`| 4 Bytes | Size of [Pages](#pages) |
-|`S_COVER`| 4 Bytes | Size of cover |
 |`TITLE`| nth Bytes | UTF-8 string as bytes |
 |`DESC`| nth Bytes | UTF-8 string as bytes |
 |`COVER`| nth Bytes | Image as raw bytes |
