@@ -24,7 +24,7 @@ obff uses `.obff` or `.obf` as file extension.
 |`TITLE`| nth Bytes | UTF-8 string as bytes |
 |`DESC`| nth Bytes | UTF-8 string as bytes |
 |`COVER`| nth Bytes | Image as raw bytes |
-|`PAGES`| nth Bytes | twice gzip compressed [Pages](#pages) |
+|`PAGES`| nth Bytes | twice gzip compressed [Pages](#pages) __on compression level 9__ |
 
 
 ### Pages
